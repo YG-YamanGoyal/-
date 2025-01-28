@@ -1,0 +1,251 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+.my-img{
+  width: 40%;
+  border-radius: 50%;
+  margin: 5rem;
+  margin-bottom: 1rem;
+}
+
+.section-title{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700;
+
+}
+
+/* Find ME */
+
+.findme{
+  justify-content: start;
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 7rem;
+  height: 7rem;
+  padding-top: 2rem;
+  border-radius: 10%;
+  text-decoration: none;
+}
+.social-text{
+  font-weight: bold;
+  font-size: small;
+}
+.social-card:hover{
+  background-color: aliceblue;
+  text-decoration: none;
+}
+.social-card:hover p{
+  text-decoration: none;
+}
+.fa-brands{
+  font-size: 2rem;
+}
+
+/* Skills */
+
+.skill-box{
+  min-width: 4rem;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 25px;
+  font-size: small;
+  margin: 6px;
+}
+
+.yellow{
+  background-color: #f5c20a;
+}
+.pale{
+  background-color: #ffcefb;
+}
+.purple{
+  background-color: #ff96e5;
+}
+.skill-box:hover{
+  background-color: #d7faff;
+  font-weight: 600;
+}
+
+/* Work Experience */
+
+.work-exp{
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 15px;
+  font-size: 14px;
+  -webkit-transition: background 0.6s; /* For Safari 3.0 to 6.0 */
+   transition: background 0.6s;
+}
+.job-title{
+  font-weight: 600;
+  font-size: 20px;
+}
+.company{
+  margin-top: -0.7rem;
+}
+.work-exp:hover{
+  background-color: aliceblue;
+}
+
+/* Projects */
+
+.projects{
+  max-width: 48%;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.projects:hover{
+  background-color: aliceblue;
+}
+
+.projects .col-6{
+  padding: 6px;
+}
+
+.p-title{
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 7px;
+  
+}
+
+.p-desc{
+  font-size: 14px;
+}
+
+.proj-img{
+  /* min-width: 6rem; */
+  max-width: 6rem;
+  max-height: 6rem;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.projects li{
+  font-size: 14px;
+}
+
+.lang-box{
+  min-width: 4rem;
+  max-height: 1.9rem;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 25px;
+  font-size: small;
+  margin: 3px;
+}
+
+/* Certification */
+
+.certification{
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transition: background 0.6s; /* For Safari 3.0 to 6.0 */
+   transition: background 0.6s;
+}
+
+.certification:hover{
+  background-color: aliceblue;
+}
+
+/* Publications */
+
+.publications{
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 15px;
+  font-size: 14px;
+  -webkit-transition: background 0.6s;
+   transition: background 0.6s;
+}
+.pub-title{
+  font-weight: 600;
+  font-size: 18px;
+}
+.pub-house{
+  margin-top: -0.7rem;
+}
+.publications:hover{
+  background-color: aliceblue;
+}
+
+form{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* Mobile */
+
+@media  screen and (min-width: 321px) and (max-width:960px){
+  .findme{
+    justify-content: center;
+  }
+  .section-title{
+    text-align: center;
+  }
+  .skill-box{
+    min-width: 2rem;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px;
+  }
+  .projects i{
+    font-size: 20px;
+    margin-top: 6px;
+  }
+  .p-title{
+    font-size: 13px;
+  }
+  .p-desc{
+    font-size: 11px;
+  }
+  .lang-box{
+  min-width: 2rem;
+  max-height: 1.5rem;
+  padding: 0.2rem;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 25px;
+  font-size: 9px;
+  font-weight: 600;
+  margin: 2px;
+
+  }
+  .publications{
+    padding: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+  }
+  .pub-title{
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .pub-house{
+    margin-top: -0.5rem;
+  }
+  .education .job-title{
+    font-size: 16px;
+  }
+  .education p{
+    font-size: 12px;
+  }
+}
