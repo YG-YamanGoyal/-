@@ -68,6 +68,13 @@
 .purple{
   background-color: #ff96e5;
 }
+.offwhite{
+  background-color: #dbf2ff;
+}
+.blue{
+  background-color: rgb(115, 83, 255);
+  color: white;
+}
 .skill-box:hover{
   background-color: #d7faff;
   font-weight: 600;
@@ -229,6 +236,13 @@ form{
   margin: 2px;
 
   }
+
+  .projects{
+    max-width: 48%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
   .publications{
     padding: 15px;
     padding-top: 7px;
