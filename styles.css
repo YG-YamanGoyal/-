@@ -20,6 +20,10 @@ html, body {
 
 }
 
+.company-logo{
+  margin-top: -15px;
+}
+
 /* Find ME */
 
 .findme{
